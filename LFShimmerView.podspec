@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.3'
 
-  s.source_files = 'LFShimmerView/Classes/**/*'
+  s.source_files = 'LFShimmerView/Sources/*.swift'
   
   # s.resource_bundles = {
   #   'LFShimmerView' => ['LFShimmerView/Assets/*.png']
