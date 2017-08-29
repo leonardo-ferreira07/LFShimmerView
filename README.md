@@ -1,8 +1,6 @@
 # LFShimmerView
 ### Pod that provides a shimmering effect on UIView written in Swift.
 
-# LFShimmerView
-
 [![CI Status](http://img.shields.io/travis/leonardo-ferreira07/LFShimmerView.svg?style=flat)](https://travis-ci.org/leonardo-ferreira07/LFShimmerView)
 [![Version](https://img.shields.io/cocoapods/v/LFShimmerView.svg?style=flat)](http://cocoapods.org/pods/LFShimmerView)
 [![License](https://img.shields.io/cocoapods/l/LFShimmerView.svg?style=flat)](http://cocoapods.org/pods/LFShimmerView)
