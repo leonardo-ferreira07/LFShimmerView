@@ -14,7 +14,7 @@ enum ShapeType: Int {
 }
 
 @IBDesignable
-open class DesignableShimmerView: UIView {
+open class DesignableShimmerView: UIView, ShimmerEffect {
     
     var shadowLayer: UIView?
     
@@ -158,6 +158,10 @@ public protocol ShimmerEffect {
     var gradientLayer: CAGradientLayer { get }
 }
 
+public enum ShimmerAnimationKeyPath: String {
+    case lfShimmerViewLocations = "locations"
+}
+
 extension ShimmerEffect {
     
     public func addShimmerAnimation() {
@@ -171,9 +175,7 @@ extension ShimmerEffect {
         gradientLayer.locations = startLocations
         gradientLayer.colors = gradientColors
         
-        let animationKeyPath = "locations"
-        
-        let shimmerAnimation = CABasicAnimation(keyPath: animationKeyPath)
+        let shimmerAnimation = CABasicAnimation(keyPath: ShimmerAnimationKeyPath.lfShimmerViewLocations.rawValue)
         shimmerAnimation.fromValue = startLocations
         shimmerAnimation.toValue = endLocations
         shimmerAnimation.duration = animationDuration
@@ -184,25 +186,13 @@ extension ShimmerEffect {
         animationGroup.repeatCount = .infinity
         animationGroup.animations = [shimmerAnimation]
         
-        gradientLayer.removeAnimation(forKey: animationKeyPath)
-        gradientLayer.add(animationGroup, forKey: animationKeyPath)
+        gradientLayer.removeAnimation(forKey: ShimmerAnimationKeyPath.lfShimmerViewLocations.rawValue)
+        gradientLayer.add(animationGroup, forKey: ShimmerAnimationKeyPath.lfShimmerViewLocations.rawValue)
     }
     
     public func removeShimmerAnimation() {
-        gradientLayer.removeAnimation(forKey: "locations")
+        gradientLayer.removeAnimation(forKey: ShimmerAnimationKeyPath.lfShimmerViewLocations.rawValue)
     }
-    
-}
-
-extension DesignableShimmerView: ShimmerEffect {
-    
-//    public func addShimmerAnimation() {
-//        addShimmerAnimation()
-//    }
-//
-//    public func removeShimmerAnimation() {
-//        removeShimmerAnimation()
-//    }
     
 }
 
