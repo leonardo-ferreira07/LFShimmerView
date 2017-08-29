@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LFShimmerView_Example' do
+  pod 'LFShimmerView', :path => '../'
+
+  target 'LFShimmerView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

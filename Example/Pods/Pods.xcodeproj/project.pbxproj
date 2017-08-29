@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0306E357D7ED16423481CA449077C6D2 /* Pods-LFShimmerView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F955B49E16606963395DA10F4A7504E /* Pods-LFShimmerView_Example-dummy.m */; };
+		2FE61227E00DB4E7133EA62D6FD33F64 /* LFShimmerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D152E134FBB67F2560016DB1D9F5C8E /* LFShimmerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44065B472CB3C2C69ADC621A91418499 /* LFShimmerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F10B662CC3031FACD7BC7ED282EC137B /* LFShimmerView-dummy.m */; };
+		789A09DE8C300E30F8C0CC651603EF6E /* Pods-LFShimmerView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6823710435F832598296727D99C4B260 /* Pods-LFShimmerView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		856AE3107E2E5568A994A3AFAB8380AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8A3A7921F8D5DB27128DBA7F42F60A3E /* Pods-LFShimmerView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3DF6E160D47D150337283B6120C244 /* Pods-LFShimmerView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B72A1D4C78B8620052E947F5B2BFE580 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08853C15EBE19F2D4B8598AAC8F84561 /* ReplaceMe.swift */; };
+		C210F039E9346355B7D187AA56325549 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CB75267C2617298D902D59895EF14641 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FDAED219C93C0AB5157C3CADB8AA6753 /* Pods-LFShimmerView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 816C885261718E5AEFE7A68B2BF845F1 /* Pods-LFShimmerView_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A5B2C0FFF564EC3CC78275FAD4E6555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 522338CCEA8F6765458F8ED4A0529F4D;
+			remoteInfo = LFShimmerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0707DFCBE038C160A0196A6FAEAC366F /* Pods-LFShimmerView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LFShimmerView_Tests.modulemap"; sourceTree = "<group>"; };
+		08853C15EBE19F2D4B8598AAC8F84561 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = LFShimmerView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		088F744341ADC1AACA91FB371F92AA3B /* Pods_LFShimmerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LFShimmerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EF21BBBED2931D9B1EF86F01FEA5C36 /* Pods-LFShimmerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFShimmerView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0F955B49E16606963395DA10F4A7504E /* Pods-LFShimmerView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LFShimmerView_Example-dummy.m"; sourceTree = "<group>"; };
+		165BD2C5040DDB4B2FB7E800D492AB37 /* Pods-LFShimmerView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LFShimmerView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		17846B413370C7B6B8B2F89CB990D6C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A969D415D7571D00E475EAD54E41E7E /* Pods-LFShimmerView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LFShimmerView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		24DA980DD8D2F8074C2616395E86027B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D182292AFE2A860A25B1A24979C83AC /* Pods-LFShimmerView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LFShimmerView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		30AF1056B854BD03EE2A8D68354A70B8 /* Pods-LFShimmerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFShimmerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3595A19ED43D0BFA0DC242D9B583E944 /* Pods_LFShimmerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LFShimmerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ABDA432636D7572DA373FACDCE87D34 /* Pods-LFShimmerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFShimmerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BF0F58350DFB3912BE683CE594961F9 /* LFShimmerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LFShimmerView.modulemap; sourceTree = "<group>"; };
+		47847173079E640B1C486AB3F900EFE1 /* LFShimmerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LFShimmerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47EBE2F2FEDDC458CC8EDD57DEE790D7 /* LFShimmerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LFShimmerView-prefix.pch"; sourceTree = "<group>"; };
+		4D152E134FBB67F2560016DB1D9F5C8E /* LFShimmerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LFShimmerView-umbrella.h"; sourceTree = "<group>"; };
+		53A6E10AA0085FDE6FBB71E3945953A3 /* Pods-LFShimmerView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LFShimmerView_Example.modulemap"; sourceTree = "<group>"; };
+		5B887ABC829BE2C4FF2E81B0B43284D2 /* LFShimmerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LFShimmerView.xcconfig; sourceTree = "<group>"; };
+		61BC0361013910BAE111045F1048B2BE /* Pods-LFShimmerView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LFShimmerView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6823710435F832598296727D99C4B260 /* Pods-LFShimmerView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LFShimmerView_Example-umbrella.h"; sourceTree = "<group>"; };
+		72583FFD0159CBCA6A7E1888C71379CE /* Pods-LFShimmerView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LFShimmerView_Example-resources.sh"; sourceTree = "<group>"; };
+		816C885261718E5AEFE7A68B2BF845F1 /* Pods-LFShimmerView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LFShimmerView_Tests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9CC560FD418CAF8E071F2D2945CD65A /* Pods-LFShimmerView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LFShimmerView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BB89883A4A0672E5E01E9136F9CA72E2 /* Pods-LFShimmerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFShimmerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BD42E7DBB4AE2319F95EB5E1F2085062 /* Pods-LFShimmerView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LFShimmerView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CD3DF6E160D47D150337283B6120C244 /* Pods-LFShimmerView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LFShimmerView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D331B8689A58B27A6370B66022332A40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA7ECA51A4BF6771B99AD753940D7C12 /* Pods-LFShimmerView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LFShimmerView_Tests-resources.sh"; sourceTree = "<group>"; };
+		F10B662CC3031FACD7BC7ED282EC137B /* LFShimmerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LFShimmerView-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43C6239BB8249A1ECBDBA60479F39D65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C210F039E9346355B7D187AA56325549 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B4FB1696941F619C79071C2DF5A908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856AE3107E2E5568A994A3AFAB8380AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE45521D4A54E814A7B7BDB98B8E1A0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB75267C2617298D902D59895EF14641 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07A49EFB813F3D652CB7D849651843A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47847173079E640B1C486AB3F900EFE1 /* LFShimmerView.framework */,
+				088F744341ADC1AACA91FB371F92AA3B /* Pods_LFShimmerView_Example.framework */,
+				3595A19ED43D0BFA0DC242D9B583E944 /* Pods_LFShimmerView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E1928F4AEBF4DBF269D3FB00626358E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C62BE340853AD1A4E5FA055F95B83717 /* LFShimmerView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4F80F468E695A904FCB40E6DBAD929E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24DA980DD8D2F8074C2616395E86027B /* Info.plist */,
+				3BF0F58350DFB3912BE683CE594961F9 /* LFShimmerView.modulemap */,
+				5B887ABC829BE2C4FF2E81B0B43284D2 /* LFShimmerView.xcconfig */,
+				F10B662CC3031FACD7BC7ED282EC137B /* LFShimmerView-dummy.m */,
+				47EBE2F2FEDDC458CC8EDD57DEE790D7 /* LFShimmerView-prefix.pch */,
+				4D152E134FBB67F2560016DB1D9F5C8E /* LFShimmerView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LFShimmerView";
+			sourceTree = "<group>";
+		};
+		59A17370ECBE2F4984799B664AF7FDA2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2A62C46ACD7B2CE04DD32272B0345D9 /* Pods-LFShimmerView_Example */,
+				5C39DD9832202DB42FF07FDA63CC405B /* Pods-LFShimmerView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5C39DD9832202DB42FF07FDA63CC405B /* Pods-LFShimmerView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				17846B413370C7B6B8B2F89CB990D6C7 /* Info.plist */,
+				0707DFCBE038C160A0196A6FAEAC366F /* Pods-LFShimmerView_Tests.modulemap */,
+				1A969D415D7571D00E475EAD54E41E7E /* Pods-LFShimmerView_Tests-acknowledgements.markdown */,
+				61BC0361013910BAE111045F1048B2BE /* Pods-LFShimmerView_Tests-acknowledgements.plist */,
+				816C885261718E5AEFE7A68B2BF845F1 /* Pods-LFShimmerView_Tests-dummy.m */,
+				165BD2C5040DDB4B2FB7E800D492AB37 /* Pods-LFShimmerView_Tests-frameworks.sh */,
+				DA7ECA51A4BF6771B99AD753940D7C12 /* Pods-LFShimmerView_Tests-resources.sh */,
+				CD3DF6E160D47D150337283B6120C244 /* Pods-LFShimmerView_Tests-umbrella.h */,
+				3ABDA432636D7572DA373FACDCE87D34 /* Pods-LFShimmerView_Tests.debug.xcconfig */,
+				30AF1056B854BD03EE2A8D68354A70B8 /* Pods-LFShimmerView_Tests.release.xcconfig */,
+			);
+			name = "Pods-LFShimmerView_Tests";
+			path = "Target Support Files/Pods-LFShimmerView_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1E1928F4AEBF4DBF269D3FB00626358E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				07A49EFB813F3D652CB7D849651843A7 /* Products */,
+				59A17370ECBE2F4984799B664AF7FDA2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C62BE340853AD1A4E5FA055F95B83717 /* LFShimmerView */ = {
+			isa = PBXGroup;
+			children = (
+				08853C15EBE19F2D4B8598AAC8F84561 /* ReplaceMe.swift */,
+				4F80F468E695A904FCB40E6DBAD929E9 /* Support Files */,
+			);
+			name = LFShimmerView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F2A62C46ACD7B2CE04DD32272B0345D9 /* Pods-LFShimmerView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D331B8689A58B27A6370B66022332A40 /* Info.plist */,
+				53A6E10AA0085FDE6FBB71E3945953A3 /* Pods-LFShimmerView_Example.modulemap */,
+				A9CC560FD418CAF8E071F2D2945CD65A /* Pods-LFShimmerView_Example-acknowledgements.markdown */,
+				2D182292AFE2A860A25B1A24979C83AC /* Pods-LFShimmerView_Example-acknowledgements.plist */,
+				0F955B49E16606963395DA10F4A7504E /* Pods-LFShimmerView_Example-dummy.m */,
+				BD42E7DBB4AE2319F95EB5E1F2085062 /* Pods-LFShimmerView_Example-frameworks.sh */,
+				72583FFD0159CBCA6A7E1888C71379CE /* Pods-LFShimmerView_Example-resources.sh */,
+				6823710435F832598296727D99C4B260 /* Pods-LFShimmerView_Example-umbrella.h */,
+				BB89883A4A0672E5E01E9136F9CA72E2 /* Pods-LFShimmerView_Example.debug.xcconfig */,
+				0EF21BBBED2931D9B1EF86F01FEA5C36 /* Pods-LFShimmerView_Example.release.xcconfig */,
+			);
+			name = "Pods-LFShimmerView_Example";
+			path = "Target Support Files/Pods-LFShimmerView_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4CA1E0A4B45AA0B22E8C6586CE98522A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789A09DE8C300E30F8C0CC651603EF6E /* Pods-LFShimmerView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B859FE55B7882CDB46A394FFC70F9627 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE61227E00DB4E7133EA62D6FD33F64 /* LFShimmerView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA24CC0BF0EA0D3E2D627DAF0D2ED4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3A7921F8D5DB27128DBA7F42F60A3E /* Pods-LFShimmerView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		522338CCEA8F6765458F8ED4A0529F4D /* LFShimmerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1DA3DB5F1AC68305F9A021E0DE176E /* Build configuration list for PBXNativeTarget "LFShimmerView" */;
+			buildPhases = (
+				F171EA3BA1AAE1261020C17434F7FA37 /* Sources */,
+				DE45521D4A54E814A7B7BDB98B8E1A0E /* Frameworks */,
+				B859FE55B7882CDB46A394FFC70F9627 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFShimmerView;
+			productName = LFShimmerView;
+			productReference = 47847173079E640B1C486AB3F900EFE1 /* LFShimmerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		913D87FA925E402A3016C547DC776F14 /* Pods-LFShimmerView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A9962775D4625C577892E14FC13401 /* Build configuration list for PBXNativeTarget "Pods-LFShimmerView_Tests" */;
+			buildPhases = (
+				2622EDAFF0B76491CAE63806CDCA7445 /* Sources */,
+				57B4FB1696941F619C79071C2DF5A908 /* Frameworks */,
+				BFA24CC0BF0EA0D3E2D627DAF0D2ED4F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LFShimmerView_Tests";
+			productName = "Pods-LFShimmerView_Tests";
+			productReference = 3595A19ED43D0BFA0DC242D9B583E944 /* Pods_LFShimmerView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F198D20CCF318E301790F67FC5EF1C53 /* Pods-LFShimmerView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62C35ED3FF8313C697718F45091B6010 /* Build configuration list for PBXNativeTarget "Pods-LFShimmerView_Example" */;
+			buildPhases = (
+				D444B798479BDB104BD38026768DC2D9 /* Sources */,
+				43C6239BB8249A1ECBDBA60479F39D65 /* Frameworks */,
+				4CA1E0A4B45AA0B22E8C6586CE98522A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E6E5D7F5CA9CF757D72BA9933639712 /* PBXTargetDependency */,
+			);
+			name = "Pods-LFShimmerView_Example";
+			productName = "Pods-LFShimmerView_Example";
+			productReference = 088F744341ADC1AACA91FB371F92AA3B /* Pods_LFShimmerView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 07A49EFB813F3D652CB7D849651843A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				522338CCEA8F6765458F8ED4A0529F4D /* LFShimmerView */,
+				F198D20CCF318E301790F67FC5EF1C53 /* Pods-LFShimmerView_Example */,
+				913D87FA925E402A3016C547DC776F14 /* Pods-LFShimmerView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2622EDAFF0B76491CAE63806CDCA7445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAED219C93C0AB5157C3CADB8AA6753 /* Pods-LFShimmerView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D444B798479BDB104BD38026768DC2D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0306E357D7ED16423481CA449077C6D2 /* Pods-LFShimmerView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F171EA3BA1AAE1261020C17434F7FA37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44065B472CB3C2C69ADC621A91418499 /* LFShimmerView-dummy.m in Sources */,
+				B72A1D4C78B8620052E947F5B2BFE580 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E6E5D7F5CA9CF757D72BA9933639712 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LFShimmerView;
+			target = 522338CCEA8F6765458F8ED4A0529F4D /* LFShimmerView */;
+			targetProxy = 3A5B2C0FFF564EC3CC78275FAD4E6555 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		031BA682BEBEB6D4229D372CCCB5468A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B887ABC829BE2C4FF2E81B0B43284D2 /* LFShimmerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LFShimmerView/LFShimmerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LFShimmerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LFShimmerView/LFShimmerView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LFShimmerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1490A3251590E68C9262B8A753C163D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB89883A4A0672E5E01E9136F9CA72E2 /* Pods-LFShimmerView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LFShimmerView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LFShimmerView_Example/Pods-LFShimmerView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LFShimmerView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		62CC150859A5AC469D01506D82B23917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EF21BBBED2931D9B1EF86F01FEA5C36 /* Pods-LFShimmerView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LFShimmerView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LFShimmerView_Example/Pods-LFShimmerView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LFShimmerView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6867D5A755328E7CA39A744DB95B47B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ABDA432636D7572DA373FACDCE87D34 /* Pods-LFShimmerView_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LFShimmerView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LFShimmerView_Tests/Pods-LFShimmerView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LFShimmerView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DAB2C476128C05836EE172A8227D15F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B887ABC829BE2C4FF2E81B0B43284D2 /* LFShimmerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LFShimmerView/LFShimmerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LFShimmerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LFShimmerView/LFShimmerView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LFShimmerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E63DF20C7EE368A91474A5B9BA41FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30AF1056B854BD03EE2A8D68354A70B8 /* Pods-LFShimmerView_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LFShimmerView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LFShimmerView_Tests/Pods-LFShimmerView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LFShimmerView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62C35ED3FF8313C697718F45091B6010 /* Build configuration list for PBXNativeTarget "Pods-LFShimmerView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1490A3251590E68C9262B8A753C163D6 /* Debug */,
+				62CC150859A5AC469D01506D82B23917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1DA3DB5F1AC68305F9A021E0DE176E /* Build configuration list for PBXNativeTarget "LFShimmerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DAB2C476128C05836EE172A8227D15F /* Debug */,
+				031BA682BEBEB6D4229D372CCCB5468A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A9962775D4625C577892E14FC13401 /* Build configuration list for PBXNativeTarget "Pods-LFShimmerView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6867D5A755328E7CA39A744DB95B47B7 /* Debug */,
+				9E63DF20C7EE368A91474A5B9BA41FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

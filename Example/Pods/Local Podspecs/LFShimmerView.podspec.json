@@ -1,0 +1,22 @@
+{
+  "name": "LFShimmerView",
+  "version": "0.1.0",
+  "summary": "A short description of LFShimmerView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/leonardo-ferreira07/LFShimmerView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "leonardo-ferreira07": "leonardo@mindvalley.com"
+  },
+  "source": {
+    "git": "https://github.com/leonardo-ferreira07/LFShimmerView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LFShimmerView/Classes/**/*"
+}

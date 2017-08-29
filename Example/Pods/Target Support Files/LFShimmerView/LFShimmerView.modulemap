@@ -1,0 +1,6 @@
+framework module LFShimmerView {
+  umbrella header "LFShimmerView-umbrella.h"
+
+  export *
+  module * { export * }
+}
