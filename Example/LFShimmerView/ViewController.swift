@@ -11,7 +11,7 @@ import LFShimmerView
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var shimmerView: DesignableShimmerView!
+    @IBOutlet weak var shimmerView: DesignableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
